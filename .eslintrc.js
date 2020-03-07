@@ -4,7 +4,7 @@ module.exports = {
     project: "./tsconfig.json",
   },
   plugins: ["@typescript-eslint"],
-  extends: ["plugin:@typescript-eslint/recommended"],
+  extends: ["plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
   rules: {
     // Overwrite rules specified from the extended configs e.g.
     // "@typescript-eslint/explicit-function-return-type": "off",
